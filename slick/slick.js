@@ -1293,7 +1293,7 @@
         if (_.$dots !== null) {
             _.$dots.attr('role', 'tablist').find('li').each(function(i) {
                 $(this).attr({
-                    'role': 'presentation',
+                    'role': 'tab',
                     'aria-selected': 'false',
                     'aria-controls': 'navigation' + _.instanceUid + i + '',
                     'id': 'slick-slide' + _.instanceUid + i + ''
